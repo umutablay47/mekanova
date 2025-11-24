@@ -66,6 +66,7 @@ Ayrıntılı tablo tanımları için `db/schema.sql` dosyasına bakın.
 
 ## Lisans
 Bu depo ürün gereksinimlerini ve şema tasarımını içerir; uygulama kodu eklendikçe lisans bilgisi güncellenecektir.
+ codex/add-location-based-venue-discovery-lowyhn
 
 ## Web Yayını (GitHub Pages)
 
@@ -80,3 +81,5 @@ Bu repo için GitHub Actions ile otomatik Flutter web build ve GitHub Pages depl
    - https://umutablay47.github.io/mekanova/
 
 Bu adres README yerine Flutter web uygulamasını çalıştıracaktır.
+
+ main
