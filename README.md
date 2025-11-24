@@ -66,3 +66,20 @@ Ayrıntılı tablo tanımları için `db/schema.sql` dosyasına bakın.
 
 ## Lisans
 Bu depo ürün gereksinimlerini ve şema tasarımını içerir; uygulama kodu eklendikçe lisans bilgisi güncellenecektir.
+ codex/add-location-based-venue-discovery-lowyhn
+
+## Web Yayını (GitHub Pages)
+
+Bu repo için GitHub Actions ile otomatik Flutter web build ve GitHub Pages deploy yapılandırılmıştır.
+
+1. Değişikliklerini `main` branch’ine push et.
+2. GitHub’da **Actions** sekmesinden `Deploy Flutter Web to GitHub Pages` workflow’unun başarıyla tamamlandığını kontrol et.
+3. İlk çalıştırmadan sonra repo ayarlarından **Settings → Pages** bölümüne git:
+   - Source: `Deploy from a branch`
+   - Branch: `gh-pages`, Folder: `/`
+4. Birkaç dakika içinde uygulama şu adresten erişilebilir olur:
+   - https://umutablay47.github.io/mekanova/
+
+Bu adres README yerine Flutter web uygulamasını çalıştıracaktır.
+
+ main
