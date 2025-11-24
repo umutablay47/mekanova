@@ -21,8 +21,17 @@ jobs:
         with:
           channel: stable
 
+ codex/add-location-based-venue-discovery-gzabf4
+      - name: Prepare Flutter project and run pub get
+        run: |
+          if [ ! -f pubspec.yaml ]; then
+            flutter create . --platforms=web
+          fi
+          flutter pub get
+
       - name: Flutter pub get
         run: flutter pub get
+ main
 
       - name: Build Flutter web
         run: flutter build web --release --base-href /mekanova/
