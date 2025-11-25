@@ -66,10 +66,13 @@ Ayrıntılı tablo tanımları için `db/schema.sql` dosyasına bakın.
 
 ## Lisans
 Bu depo ürün gereksinimlerini ve şema tasarımını içerir; uygulama kodu eklendikçe lisans bilgisi güncellenecektir.
+ codex/add-location-based-venue-discovery-fopecz
+
  codex/add-location-based-venue-discovery-gzabf4
 
  codex/add-location-based-venue-discovery-lowyhn
 main
+ main
 
 ## Web Yayını (GitHub Pages)
 
@@ -81,6 +84,13 @@ Bu repo için GitHub Actions ile otomatik Flutter web build ve GitHub Pages depl
    - Source: `Deploy from a branch`
    - Branch: `gh-pages`, Folder: `/`
 4. Birkaç dakika içinde uygulama şu adresten erişilebilir olur:
+ codex/add-location-based-venue-discovery-fopecz
+ - https://umutablay47.github.io/mekanova/
+
+Bu adres README yerine Flutter web uygulamasını çalıştıracaktır.
+
+> Not: Workflow, Pages deploy adımında `GH_PAGES_TOKEN` secret'ını kullanır. Repo ayarlarında bu secret'ı tanımladığınızdan emin olun; aksi halde yetki hatası alabilirsiniz.
+
    - https://umutablay47.github.io/mekanova/
 
 Bu adres README yerine Flutter web uygulamasını çalıştıracaktır.
@@ -89,3 +99,4 @@ codex/add-location-based-venue-discovery-gzabf4
 
  main
 main
+ main

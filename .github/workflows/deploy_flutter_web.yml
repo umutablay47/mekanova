@@ -21,7 +21,11 @@ jobs:
         with:
           channel: stable
 
+ codex/add-location-based-venue-discovery-fopecz
+      - name: Prepare Flutter project and run pub get
+
       - name: Create Flutter project (if needed) and run pub get
+ main
         run: |
           if [ ! -f pubspec.yaml ]; then
             flutter create . --platforms=web

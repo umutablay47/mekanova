@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Mekanova siyah-beyaz minimalist mekan keşfi ve rezervasyon uygulaması." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Mekanova</title>
+    <link rel="manifest" href="manifest.json" />
+    <base href="/" />
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #fff;
+        font-family: 'Inter', 'SF Pro Text', system-ui, -apple-system, sans-serif;
+      }
+      #loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        letter-spacing: 0.08em;
+        font-size: 14px;
+        color: #f5f5f5;
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading">Mekanova yükleniyor...</div>
+    <script src="flutter.js" defer></script>
+    <script>
+      window.addEventListener('load', function () {
+        _flutter.loader.loadEntrypoint({
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              document.getElementById('loading')?.remove();
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
