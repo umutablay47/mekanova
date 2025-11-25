@@ -77,6 +77,8 @@ Bu repo için GitHub Actions ile otomatik Flutter web build ve GitHub Pages depl
    - Source: `Deploy from a branch`
    - Branch: `gh-pages`, Folder: `/`
 4. Birkaç dakika içinde uygulama şu adresten erişilebilir olur:
-   - https://umutablay47.github.io/mekanova/
+ - https://umutablay47.github.io/mekanova/
 
 Bu adres README yerine Flutter web uygulamasını çalıştıracaktır.
+
+> Not: Workflow, Pages deploy adımında `GH_PAGES_TOKEN` secret'ını kullanır. Repo ayarlarında bu secret'ı tanımladığınızdan emin olun; aksi halde yetki hatası alabilirsiniz.
